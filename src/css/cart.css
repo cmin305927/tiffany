@@ -1,0 +1,137 @@
+.content{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: "宋体";
+}
+.content h1{
+    font-size: 40px;
+}
+.content .jumbotron hr{
+    margin-bottom: 20px;
+}
+.content .jumbotron P + p{
+    margin-top: 20px;
+}
+.content .jumbotron .hide{
+    display: none;
+}
+.content .jumbotron .btn{
+    height: 25px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 22px;
+    background-color: violet;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.content .selectAll{
+    font-size: 20px;
+    position: relative;
+}
+.content .selectAll > input, .content .goodsList > li > .select > input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.content .selectAll > .text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: bold;
+  }
+  .content .goodsList > li {
+    height: 170px;
+    padding: 15px 0;
+    display: flex;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+  }
+  .content .goodsList > li:last-child {
+    margin-bottom: 0;
+  }
+  .content .goodsList > li > .select {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .goodsList > li > .goodsImg {
+    width: 170px;
+    height: 180px;
+    margin-right: 50px;
+  }
+  .content .goodsList > li > .goodsImg img{
+      width: 170px;
+      height: 170px;
+  }
+  .content .goodsList > li > .goodsDesc {
+    width: 320px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.content .goodsList > li > .price,
+.content .goodsList > li > .xiaoji {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.content .goodsList > li > .count {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .goodsList > li > .count > button {
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .content .goodsList > li > .count > input {
+    width: 75px;
+    height: 33px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+  }
+  .content .goodsList > li > .operate {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .goodsList > li > .operate > button{
+     font-size: 20px;
+     padding: 2px;
+     cursor: pointer;
+    }
+  .buyInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+  }
+
+  .buyInfo > .buyNum,
+  .buyInfo > .buyMoney,
+  .buyInfo > .operate {
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+
+  .buyInfo > .buyNum > span,
+  .buyInfo > .buyMoney > span {
+    font-size: 30px;
+  }
+  .operate > button{
+    font-size: 20px;
+    padding: 2px;
+    cursor: pointer;
+  }

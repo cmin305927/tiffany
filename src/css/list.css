@@ -1,0 +1,116 @@
+.banner{
+	position: relative;
+	margin-bottom: 40px;
+}
+.banner img{
+	width: 100%;
+	height: 500px;
+}
+.banner div{
+	position: absolute;
+	left: 50px;
+	top: 130px;
+    font-family: "宋体";
+}
+.banner div h1{
+    font-size: 40px;
+}
+.banner div p{
+	width: 417px;
+	margin-top: 23px;
+    line-height: 24px;
+}
+.firstPage{
+    font-size: 12px;
+    height: 40px;
+    color: #8C8A8C;
+    padding: 11px 52px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.tables{
+    width: 100%;
+    height: 100%;
+    padding: 0 52px;
+    box-sizing: border-box;
+}
+.tables .screen{
+    font-size: 18px;
+    color: #8C8A8C;
+}
+.tables .screen li a{
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.tables .screen .sortBox div{
+    display: inline-block;
+}
+.tables .screen a.active,
+.tables .screen a:hover {
+  background-color: pink;
+  color: #fff;
+}
+.show{
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+}
+.pagination{
+    height: 80px;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ringTables > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .ringTables  li {
+    position: relative;
+  }
+.ringTables > ul > li > img{
+    width: 347px;
+    height: 347px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.ringTables ul li > span{
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+}
+.ringTables ul li .cart{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    cursor: pointer;
+}
+.footerBanner{
+	position: relative;
+	margin-bottom: 3px;
+}
+.footerBanner img{
+	width: 100%;
+	height: 500px;
+}
+.footerBanner div{
+	position: absolute;
+	right: 40px;
+	bottom: 220px;
+    font-family: "宋体";
+}
+.footerBanner div h1{
+    font-size: 34px;
+}
+.footerBanner div p{
+	margin-top: 23px;
+    line-height: 24px;
+}

@@ -1,0 +1,73 @@
+.center{
+    width: 1120px;
+    height: 545px;
+    margin: 0 auto;
+    display: flex;
+    font-family: "宋体";
+    padding: 100px 0 125px 0;
+    box-sizing: border-box;
+}
+.center h2{
+    height: 40px;
+    font-size: 32px;
+}
+.cen-left{
+    width: 630px;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+.cen-left > div{
+    border-right: 1px solid #00a4b7;
+}
+.cen-left > div > p, .cen-right > div > p{
+    height: 24px;
+    margin-bottom: 10px;
+}
+.cen-left .error{
+    width: 300px;
+    color: red;
+}
+.cen-left .hide{
+    display: none;
+}
+.cen-left form, .cen-right form{
+    border: 0;
+    width: 429px;
+    height: 320px;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+.cen-input{
+    height: 60px;
+}
+.cen-input input{
+    display: block;
+    width: 325px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 22px;
+    line-height: 22px;
+    min-width: 150px;
+    color: #000;
+    transition: border-color .2s ease-out;
+    border-bottom: 1px solid #767676;
+}
+.cen-btn{
+    width: 429px;
+    height: 56px;
+    margin-top: 20px;
+}
+.cen-btn input{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 19px 24px;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 18px;
+    min-width: 325px;
+    transition: all .2s ease-out;
+}

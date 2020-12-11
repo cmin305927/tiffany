@@ -1,0 +1,443 @@
+body,html{
+	font-family: "宋体";
+}
+.banner{
+	height: 500px;
+	position: relative;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.banner img{
+	width: 100%;
+	height: 500px;
+}
+.banner .imgBox{
+	display: flex;
+	width: 400%;
+	position: absolute;
+	left: 0;
+}
+.banner .text{
+	position: absolute;
+	left: 50px;
+	top: 40px;
+}
+.banner .text h1{
+	font-size: 40px;
+}
+.banner .text p{
+	width: 392px;
+	font-size: 17px;
+	margin-top: 23px;
+	line-height: 24px;
+}
+.banner .text > span{
+	width: 106px;
+	height: 40px;
+	display: block;
+	background-color: white;
+	padding: 10px 17px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	font-weight: bold;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.banner > .text > span i{
+	width: 0;
+	height: 1px;
+	display: flex;
+	background-color: #81D8D0;
+	transition: all .5s linear;
+}
+.banner > .text > span :hover i{
+	width: 100%;
+}
+.satisfactory{
+	width: 1400px;
+	height: 422px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.satisfactory h3{
+	height: 64px;
+	font-size: 32px;
+	text-align: center;
+	margin: 24px auto;
+}
+.satisfactory .imagebox ul{
+	width: 1480px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.satisfactory .imagebox ul li{
+	width: 40%;
+	display: flex;
+	position: relative;
+}
+.satisfactory .imagebox ul li > img{
+	width: 290px;
+	height: 290px;
+	cursor: pointer;
+}
+.satisfactory .imagebox ul li p{
+	position: absolute;
+	left: 30px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.satisfactory .imagebox ul li span{
+	position: relative;
+}
+.satisfactory .imagebox ul li span > img{
+	position: absolute;
+	right: 40px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.all-festivals > div{
+	width: 1400px;
+	height: 108px;
+	margin: 0 auto;
+	padding: 30px 0;
+	box-sizing: border-box;
+}
+.all-festivals > div > h4{
+	width: 180px;
+	height: 50px;
+	border: 1px solid black;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding: 14px 24px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.all-festivals > div > h4 > span i{
+	width: 0;
+	height: 1px;
+	display: flex;
+	background-color: #81D8D0;
+	transition: all .5s linear;
+}
+.all-festivals > div :hover i{
+	width: 100%;
+}
+.all-festivals > .border{
+	height: 94px;
+	width: 1400px;
+	padding: 30px 0;
+	box-sizing: border-box;
+}
+.all-festivals > .border > span{
+	display: block;
+	height: 34px;
+	border-top: 2px solid #81D8D0;
+}
+.special{
+	height: 80px;
+	width: 1400px;
+	font-family: "微软雅黑";
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 16px;
+	box-sizing: border-box;
+}
+.special h3{
+	font-size: 25px;
+	font-weight: bold;
+}
+.special p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.all-pro{
+	width: 1400px;
+	margin: 0 auto;
+}
+.all-pro ul{
+	display: flex;
+	justify-content: space-evenly;
+}
+.all-pro ul li{
+	font-family: "微软雅黑";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.all-pro ul li img{
+	width: 366px;
+	height: 366px;
+	cursor: pointer;
+}
+.all-pro ul li h4{
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	top: 200px;
+}
+.all-pro ul li p{
+	font-size: 14px;
+	line-height: 24px;
+	position: absolute;
+	bottom: 110px;
+}
+.all-pro ul li a{
+	position: absolute;
+	bottom: 80px;
+	cursor: pointer;
+}
+.all-pro ul li span{
+	width: 0;
+	height: 1px;
+	display: flex;
+	background-color: #81D8D0;
+	transition: all .5s linear;
+}
+.all-pro ul li > a:hover span{
+	width: 100%;
+	font-weight: normal;
+}
+.choice{
+	height: 146px;
+	width: 1400px;
+	margin: 0 auto;
+	padding: 30px 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+.choice > div{
+	font-size: 28px;
+	height: 86px;
+	padding: 32px 0 12px 0;
+	box-sizing: border-box;
+	border-top: 2px solid #81D8D0;
+}
+.appear{
+	width: 1400px;
+	margin: 0 auto;
+}
+.appear ul{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 32px;
+}
+.appear ul li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.appear ul li img{
+	width: 512px;
+	height: 640px;
+	cursor: pointer;
+}
+.appear ul li h4{
+	font-size: 32px;
+	margin-top: 16px;
+	margin-bottom: 12px;
+}
+.appear ul li a{
+	font-size: 14px;
+	margin-bottom: 8px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+.appear ul li span{
+	width: 0;
+	height: 1px;
+	display: flex;
+	background-color: #81D8D0;
+	transition: all .5s linear;
+}
+.appear ul li > a:hover span{
+	width: 100%;
+	font-weight: normal;
+	display: flex;
+}
+.classification{
+	height: 361px;
+	width: 1400px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.classification h2{
+	font-size: 30px;
+	height: 57px;
+	padding-bottom: 9px;
+	box-sizing: border-box;
+}
+.classification p{
+	font-size: 14px;
+	height: 37px;
+	padding-bottom: 14px;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+}
+.classification ul{
+	width: 1400px;
+	display: flex;
+	justify-content: space-between;
+}
+.classification ul li{
+	width: 220px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.classification ul li > img{
+	width: 100%;
+	height: 100%;
+}
+.classification ul li > a{
+	font-size: 14px;
+	height: 25px;
+	margin-top: 5px;
+	cursor: pointer;
+	border-bottom: 0;
+}
+.classification ul li span{
+	width: 0;
+	height: 1px;
+	display: flex;
+	background-color: #81D8D0;
+	transition: all .5s linear;
+}
+.classification ul li > a:hover span{
+	width: 100%;
+}
+.love{
+	width: 100%;
+	height: 590px;
+	margin-top: 60px;
+	padding-bottom: 36px;
+	box-sizing: border-box;
+	position: relative;
+}
+.love > img{
+	width: 100%;
+	height: 532px;
+}
+.love > div{
+	position: absolute;
+	left: 90px;
+	bottom: 190px;
+}
+.love > div h3{
+	font-size: 32px;
+	height: 52px;
+	padding-bottom: 12px;
+	box-sizing: border-box;
+}
+.love > div > p{
+	height: 38px;
+	font-family: "微软雅黑";
+	padding-bottom: 14px;
+	box-sizing: border-box;
+}
+.love > div > a{
+	width: 81px;
+	height: 25px;
+	display: block;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+.love > div > a span{
+	width: 0;
+	height: 1px;
+	display: flex;
+	background-color: #81D8D0;
+	transition: all .5s linear;
+}
+.love > div > a:hover span{
+	width: 100%;
+}
+.experience{
+	width: 100%;
+	background-color: #FAFAFA;
+}
+.experience > div{
+	height: 88px;
+	width: 100%;
+	padding: 23px 0 16px 0;
+	box-sizing: border-box;
+}
+.experience > div > h2{
+	font-size: 32px;
+	height: 49px;
+	padding-bottom: 9px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.experience ul{
+	height: 354px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+.experience ul li{
+	width: 332px;
+	height: 354px;
+	position: relative;
+	font-family: "微软雅黑";
+	display: flex;
+}
+.experience ul li > img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.experience ul li > div{
+	width: 330px;
+	height: 150px;
+	position: absolute;
+	left: 0px;
+	bottom: 100px;
+	padding: 0 12px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.experience ul li > div > h4{
+	height: 32px;
+	padding-bottom: 9px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+.experience ul li > div > p{
+	font-size: 15px;
+	line-height: 35px;
+	text-align: center;
+}
+.experience ul li > div > a{
+	height: 25px;
+	cursor: pointer;
+}
+.experience ul li div a span{
+	width: 0;
+	height: 1px;
+	display: flex;
+	background-color: #81D8D0;
+	transition: all .5s linear;
+}
+.experience ul li div a:hover span{
+	width: 100%;
+}
+.first-page{
+	height: 52px;
+	background-color: white;
+	border-top: 2px solid #81D8D0;
+	padding: 16px 0;
+	box-sizing: border-box;
+}
+.first-page p{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
